@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+    tools:context="fudgydrs.com.testapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_selected"
+        android:contentDescription="@string/character_image"
+        android:layout_width="192dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="260dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/default_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/atk_name"
+        />
+
+    <EditText
+        android:id="@+id/char_name"
+        android:labelFor="@+id/char_name"
+        android:layout_width="192dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/default_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/atk_name"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/char_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/atk_name"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/atk_name"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/char_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/default_name_select"
+        app:layout_constraintBottom_toTopOf="@+id/img_selected"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/atk_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/atk_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/default_atk_select"
+        app:layout_constraintBottom_toTopOf="@+id/attackDataTable"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/atk_name"
+        android:labelFor="@+id/atk_name"
+        android:layout_width="192dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/default_atk"
+        app:layout_constraintTop_toBottomOf="@id/char_name"
+        />
+
+    <TableLayout
+        android:id="@+id/attackDataTable"
+        android:layout_width="368dp"
+        android:layout_height="242dp"
+        android:layout_marginBottom="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:id="@+id/attack_r1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/attack_r1c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/attack_info1" />
+
+            <TextView
+                android:id="@+id/attack_r1c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/attack_info2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/attack_r2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/attack_r2c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/info_null" />
+
+            <TextView
+                android:id="@+id/attack_r2c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/info_null" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/attack_r3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/attack_r3c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/attack_info3" />
+
+            <TextView
+                android:id="@+id/attack_r3c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/attack_info4" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/attack_r4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/attack_r4c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/info_null" />
+
+            <TextView
+                android:id="@+id/attack_r4c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/info_null" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/attack_r5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/attack_r5c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/attack_info5" />
+
+            <TextView
+                android:id="@+id/attack_r5c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/attack_info6" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/attack_r6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/attack_r6c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/info_null" />
+
+            <TextView
+                android:id="@+id/attack_r6c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/info_null" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/attack_r7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/attack_r7c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/attack_info7" />
+
+            <TextView
+                android:id="@+id/attack_r7c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/attack_r8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/attack_r8c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="0dp"
+                android:background="@null"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/info_null" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

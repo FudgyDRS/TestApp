@@ -1,0 +1,944 @@
+{
+  "attack_list": [
+    {
+      "attack_name": "in rage 1, 1, b or f+3, 2",
+      "property": "m(Throw)",
+      "damage": "55",
+      "startup": "i16 pc1~",
+      "block": "-",
+      "hit": "Throw(KND)",
+      "counter_hit": "Throw(KND)",
+      "notes": "Rage art"
+    },
+    {
+      "attack_name": "1 or f+1",
+      "property": "h",
+      "damage": "7",
+      "startup": "i10",
+      "block": "+1",
+      "hit": "+8",
+      "counter_hit": "+8",
+      "notes": "-"
+    },
+    {
+      "attack_name": "1, 1",
+      "property": "h, h",
+      "damage": "7,7",
+      "startup": "i10",
+      "block": "-3",
+      "hit": "+4",
+      "counter_hit": "+4",
+      "notes": "-"
+    },
+    {
+      "attack_name": "1, 2",
+      "property": "h, m",
+      "damage": "7,20",
+      "startup": "i10",
+      "block": "-17~-16",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "2 or f+2",
+      "property": "Sm",
+      "damage": "15",
+      "startup": "i15~16",
+      "block": "-9~-8",
+      "hit": "0~+1",
+      "counter_hit": "0~+1",
+      "notes": "-"
+    },
+    {
+      "attack_name": "3 or b+3",
+      "property": "h",
+      "damage": "14",
+      "startup": "i15",
+      "block": "-8",
+      "hit": "+3",
+      "counter_hit": "+3",
+      "notes": "-"
+    },
+    {
+      "attack_name": "4",
+      "property": "h",
+      "damage": "12",
+      "startup": "i14~15",
+      "block": "-13~-12",
+      "hit": "+2~+3",
+      "counter_hit": "+2~+3",
+      "notes": "-"
+    },
+    {
+      "attack_name": "4, 3",
+      "property": "h, h",
+      "damage": "12,17",
+      "startup": "i14~15",
+      "block": "-5~-4",
+      "hit": "+19k",
+      "counter_hit": "KND",
+      "notes": "Tail spin, Homing"
+    },
+    {
+      "attack_name": "1+2 or WS+1+2",
+      "property": "h",
+      "damage": "14",
+      "startup": "i31 pc8~",
+      "block": "-20",
+      "hit": "-8",
+      "counter_hit": "-8",
+      "notes": "Power crush"
+    },
+    {
+      "attack_name": "1+2, f, f (Cancel)",
+      "property": "h",
+      "damage": "14",
+      "startup": "i315 pc8~",
+      "block": "-5",
+      "hit": "+7",
+      "counter_hit": "+7",
+      "notes": "-"
+    },
+    {
+      "attack_name": "1+2, b, b (Cancel)",
+      "property": "h",
+      "damage": "14",
+      "startup": "i315 pc8~",
+      "block": "-15",
+      "hit": "-3",
+      "counter_hit": "-3",
+      "notes": "-"
+    },
+    {
+      "attack_name": "1+2, *",
+      "property": "h",
+      "damage": "20",
+      "startup": "i40 pc8~",
+      "block": "-11",
+      "hit": "CS",
+      "counter_hit": "CS",
+      "notes": "Power crush"
+    },
+    {
+      "attack_name": "1+2*, f, f (Cancel)",
+      "property": "h",
+      "damage": "20",
+      "startup": "i405 pc8~",
+      "block": "+4",
+      "hit": "CS(21)",
+      "counter_hit": "CS(21)",
+      "notes": "Power crush"
+    },
+    {
+      "attack_name": "1+2*, b, b (Cancel)",
+      "property": "h",
+      "damage": "20",
+      "startup": "i405 pc8~",
+      "block": "-6",
+      "hit": "CS(11)",
+      "counter_hit": "CS(11)",
+      "notes": "Power crush"
+    },
+    {
+      "attack_name": "1+2, (Hold long as possible)*",
+      "property": "h!",
+      "damage": "25",
+      "startup": "i65 pc8~54",
+      "block": "CS",
+      "hit": "CS",
+      "counter_hit": "CS",
+      "notes": "Power crush"
+    },
+    {
+      "attack_name": "1+2 (Hold long as possible)*, f, f (Cancel)",
+      "property": "h",
+      "damage": "25",
+      "startup": "i65 pc8~",
+      "block": "CS(21)",
+      "hit": "CS(21)",
+      "counter_hit": "CS(21)",
+      "notes": "Power crush"
+    },
+    {
+      "attack_name": "1+2 (Hold long as possible)*, b, b (Cancel)",
+      "property": "h",
+      "damage": "25",
+      "startup": "i65 pc8~",
+      "block": "CS(11)",
+      "hit": "CS(11)",
+      "counter_hit": "CS(11)",
+      "notes": "Power crush"
+    },
+    {
+      "attack_name": "f+3",
+      "property": "m",
+      "damage": "16",
+      "startup": "i17",
+      "block": "-9",
+      "hit": "+1",
+      "counter_hit": "+1",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f+4",
+      "property": "h",
+      "damage": "20",
+      "startup": "i16~17",
+      "block": "-9~-8",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "Tail spin, Homing"
+    },
+    {
+      "attack_name": "f+1+2",
+      "property": "mm",
+      "damage": "5,15",
+      "startup": "i20,32",
+      "block": "-8s",
+      "hit": "+5s",
+      "counter_hit": "+5s",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f+1+2 (Second hit miss)",
+      "property": "m",
+      "damage": "5",
+      "startup": "i20",
+      "block": "–",
+      "hit": "–",
+      "counter_hit": "–",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f+3+4",
+      "property": "m (TJ)(TPORT)",
+      "damage": "20",
+      "startup": "i22~23a js9~",
+      "block": "-9~-8",
+      "hit": "+2~+3",
+      "counter_hit": "+2~+3",
+      "notes": "Homing"
+    },
+    {
+      "attack_name": "d/f+1",
+      "property": "m",
+      "damage": "10",
+      "startup": "i13~14",
+      "block": "-4~-3",
+      "hit": "+7~+8",
+      "counter_hit": "+7~+8",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+1, 1",
+      "property": "m, h",
+      "damage": "10,7",
+      "startup": "i13~14",
+      "block": "-3",
+      "hit": "+6",
+      "counter_hit": "+6",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+1, 2",
+      "property": "m, mm",
+      "damage": "10,5,15",
+      "startup": "i13~14",
+      "block": "-13s",
+      "hit": "+5s",
+      "counter_hit": "+5s",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+1, 2 (Third hit miss)",
+      "property": "m, m",
+      "damage": "10,5",
+      "startup": "i13~14",
+      "block": "–",
+      "hit": "–",
+      "counter_hit": "–",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+2",
+      "property": "m",
+      "damage": "10",
+      "startup": "i16~17",
+      "block": "-7~-6",
+      "hit": "+3~+4",
+      "counter_hit": "+3~+4",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+2, 1",
+      "property": "m, m",
+      "damage": "10,10",
+      "startup": "i16~17",
+      "block": "-18~-17",
+      "hit": "Launch (JG?)",
+      "counter_hit": "Launch (JG?)",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+2, 4",
+      "property": "m, m",
+      "damage": "10,13",
+      "startup": "i16~17",
+      "block": "-11",
+      "hit": "0",
+      "counter_hit": "0",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+2, 4, 3",
+      "property": "m, m, m",
+      "damage": "10,13,23",
+      "startup": "i16~17",
+      "block": "-17~-16",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+3",
+      "property": "m",
+      "damage": "14",
+      "startup": "i12",
+      "block": "-9",
+      "hit": "+1",
+      "counter_hit": "+1",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/f+4",
+      "property": "m",
+      "damage": "24",
+      "startup": "i19",
+      "block": "-16",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/b or d+1 or FC+1",
+      "property": "Sm (TC)",
+      "damage": "5",
+      "startup": "i10s cs4or1~",
+      "block": "-5",
+      "hit": "+6",
+      "counter_hit": "+6",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/b or d+1, 2 or FC+1, 2",
+      "property": "Sm (TC), Sm (TC)",
+      "damage": "5,8",
+      "startup": "is js1~",
+      "block": "-13",
+      "hit": "-2",
+      "counter_hit": "-2",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/b or d+2 or FC+2",
+      "property": "Sm (TC)",
+      "damage": "6",
+      "startup": "i12s cs4or1~",
+      "block": "-4",
+      "hit": "+7",
+      "counter_hit": "+7",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/b or d+3 or FC+3 (Close)",
+      "property": "l (TC)",
+      "damage": "10",
+      "startup": "i15s cs6or1~",
+      "block": "-11",
+      "hit": "-2",
+      "counter_hit": "-2",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/b or d+3 or FC+3",
+      "property": "l (TC)",
+      "damage": "7",
+      "startup": "i15s cs6or1~",
+      "block": "-11",
+      "hit": "-2",
+      "counter_hit": "-2",
+      "notes": "-"
+    },
+    {
+      "attack_name": "d/b or d+4 or FC+4",
+      "property": "l (TC)",
+      "damage": "20",
+      "startup": "i17~18s cs6or1~",
+      "block": "-27",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "b+1",
+      "property": "h",
+      "damage": "17",
+      "startup": "i14~15",
+      "block": "-14~-13",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "b+2",
+      "property": "m",
+      "damage": "21",
+      "startup": "i23~24",
+      "block": "-9~-8",
+      "hit": "+8~+9",
+      "counter_hit": "hKZD",
+      "notes": "-"
+    },
+    {
+      "attack_name": "b+4",
+      "property": "l",
+      "damage": "15",
+      "startup": "i20~21",
+      "block": "-13~-12",
+      "hit": "+1~+2",
+      "counter_hit": "+1~+2",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, F+2",
+      "property": "m",
+      "damage": "14",
+      "startup": "i15(16~)",
+      "block": "-14",
+      "hit": "-2",
+      "counter_hit": "-2",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, F+2:1",
+      "property": "m, m",
+      "damage": "14,20",
+      "startup": "i15(16~)",
+      "block": "-13~-12",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, F+4",
+      "property": "m",
+      "damage": "23",
+      "startup": "i20~21 (21~)",
+      "block": "0~+1",
+      "hit": "+2~+3s",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, f, f+1",
+      "property": "h",
+      "damage": "30",
+      "startup": "i16~17 (19~)",
+      "block": "+1~+2",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, f, f+3",
+      "property": "m (TJ)",
+      "damage": "30",
+      "startup": "i26~31 (29~) js6~",
+      "block": "+3~+8",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "WR+4",
+      "property": "l (TJ)",
+      "damage": "23",
+      "startup": "i20~26 (53~)",
+      "block": "-24~-18",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "WS+1",
+      "property": "h",
+      "damage": "12",
+      "startup": "i13",
+      "block": "-5",
+      "hit": "+6",
+      "counter_hit": "+6",
+      "notes": "-"
+    },
+    {
+      "attack_name": "WS+2",
+      "property": "m",
+      "damage": "17",
+      "startup": "i15~16",
+      "block": "-15~-14",
+      "hit": "Launch (JG?)",
+      "counter_hit": "Launch (JG?)",
+      "notes": "-"
+    },
+    {
+      "attack_name": "WS+3",
+      "property": "m",
+      "damage": "17",
+      "startup": "i13",
+      "block": "-7",
+      "hit": "+5",
+      "counter_hit": "CS",
+      "notes": "-"
+    },
+    {
+      "attack_name": "WS+4",
+      "property": "m",
+      "damage": "10",
+      "startup": "i11~12",
+      "block": "-9~-8",
+      "hit": "+2~+3",
+      "counter_hit": "+2~+3",
+      "notes": "-"
+    },
+    {
+      "attack_name": "WS+4, 4",
+      "property": "m, m",
+      "damage": "10,20",
+      "startup": "i11~12",
+      "block": "-15~-14",
+      "hit": "-5~-4s",
+      "counter_hit": "TUD",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Vertical jump 1",
+      "property": "m (TJ)",
+      "damage": "10",
+      "startup": "i7(16~43) js1~",
+      "block": "-25~+2",
+      "hit": "-15~+12",
+      "counter_hit": "-15~+12",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Vertical jump 2",
+      "property": "m (TJ)",
+      "damage": "15",
+      "startup": "i9(18~43) js1~",
+      "block": "-18~+7",
+      "hit": "-8~+17",
+      "counter_hit": "-8~+17",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Vertical jump 3",
+      "property": "m (TJ)",
+      "damage": "10",
+      "startup": "i7(16~43) js1~",
+      "block": "-25~+2",
+      "hit": "-15~+12",
+      "counter_hit": "-15~+12",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Vertical jump 4",
+      "property": "m (TJ)",
+      "damage": "15",
+      "startup": "i9(18~43) js1~",
+      "block": "-18~+7",
+      "hit": "-8~+17",
+      "counter_hit": "-8~+17",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Forward jump 1 Backward jump 1",
+      "property": "m (TJ)",
+      "damage": "10",
+      "startup": "i9(14~40) js1~",
+      "block": "-23~+4",
+      "hit": "-13~+14",
+      "counter_hit": "-13~+14",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Forward jump 2 Backward jump 2",
+      "property": "m (TJ)",
+      "damage": "15",
+      "startup": "i9(14~40) js1~",
+      "block": "-18~+9",
+      "hit": "-8~+19",
+      "counter_hit": "-8~+19",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Forward jump 3 Backward jump 3",
+      "property": "m (TJ)",
+      "damage": "10",
+      "startup": "i7(12~40) js1~",
+      "block": "-26~+2",
+      "hit": "-16~+12",
+      "counter_hit": "-16~+12",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Forward jump 4 Backward jump 4",
+      "property": "m (TJ)",
+      "damage": "15",
+      "startup": "i7(13~40) js1~",
+      "block": "-20~+9",
+      "hit": "-10~+19",
+      "counter_hit": "-10~+19",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Forward jump Top of jump d+3",
+      "property": "m (TJ)",
+      "damage": "14",
+      "startup": "i13~ (34?~) js1~",
+      "block": "-6~+1",
+      "hit": "+9s~+16s",
+      "counter_hit": "+9s~+16s",
+      "notes": "-"
+    },
+    {
+      "attack_name": "qcf+1 or qcf+2",
+      "property": "Sm",
+      "damage": "14",
+      "startup": "i19~",
+      "block": "-13~",
+      "hit": "-5~",
+      "counter_hit": "-5~",
+      "notes": "-"
+    },
+    {
+      "attack_name": "qcf+1, 1+2f, f",
+      "property": "Sm",
+      "damage": "14",
+      "startup": "i19~",
+      "block": "+7?~",
+      "hit": "+15~",
+      "counter_hit": "+15~",
+      "notes": "-"
+    },
+    {
+      "attack_name": "hcb+1",
+      "property": "Sm",
+      "damage": "17",
+      "startup": "i33~",
+      "block": "-7~",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "hcb+2",
+      "property": "Sm x 3",
+      "damage": "9,9,9",
+      "startup": "i33~,41,49",
+      "block": "-1~",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+1",
+      "property": "Sm",
+      "damage": "15",
+      "startup": "i10a cs6~",
+      "block": "-26",
+      "hit": "Launch (JG?)",
+      "counter_hit": "Launch (JG?)",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+1, 1+2f, f",
+      "property": "Sm",
+      "damage": "15",
+      "startup": "i10a cs6~",
+      "block": "+1",
+      "hit": "Launch (JG?)",
+      "counter_hit": "Launch (JG?)",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+2",
+      "property": "Sm x 3",
+      "damage": "6,6,20",
+      "startup": "i11,23,35a cs6~7",
+      "block": "-34 (~16?a)",
+      "hit": "Launch (JG?)",
+      "counter_hit": "Launch (JG?)",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+2, 1+2f, f (Only first hit)",
+      "property": "Sm",
+      "damage": "6",
+      "startup": "i11a cs6~7",
+      "block": "0~",
+      "hit": "+14",
+      "counter_hit": "-",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+2, 1+2f, f (Only two first hits)",
+      "property": "Sm x 2",
+      "damage": "6,6",
+      "startup": "i11,23a cs6~7",
+      "block": "+?",
+      "hit": "Launch (JG?)",
+      "counter_hit": "Launch (JG?)",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+3(or 4)",
+      "property": "(Special) (TJ)(DFLIP)",
+      "damage": "-",
+      "startup": "i11,23 6~7",
+      "block": "-",
+      "hit": "-",
+      "counter_hit": "-",
+      "notes": "-"
+    },
+    {
+      "attack_name": "DFLIP n",
+      "property": "l",
+      "damage": "23",
+      "startup": "i4~10 (51~)",
+      "block": "-24~-18",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "DFLIP 1",
+      "property": "h",
+      "damage": "15",
+      "startup": "i7~ (34~46) js1~",
+      "block": "-4~+7",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "DFLIP 2",
+      "property": "m",
+      "damage": "25",
+      "startup": "i16~20 (52~55) js1~",
+      "block": "-9~-5s",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "DFLIP 3",
+      "property": "m",
+      "damage": "23",
+      "startup": "i14~ (41~52) js1~",
+      "block": "-10~+1",
+      "hit": "+24k",
+      "counter_hit": "KND",
+      "notes": "Tail spin, Homing"
+    },
+    {
+      "attack_name": "DFLIP 4",
+      "property": "Sm",
+      "damage": "15",
+      "startup": "i12~ (44~52) js1~",
+      "block": "-4~-1",
+      "hit": "+16~+19s",
+      "counter_hit": "+16~+19s",
+      "notes": "-"
+    },
+    {
+      "attack_name": "DFLIP 1+3 or 2+4",
+      "property": "h(Throw)",
+      "damage": "30",
+      "startup": "i(32~)",
+      "block": "-",
+      "hit": "Throw(KND)",
+      "counter_hit": "-",
+      "notes": "-"
+    },
+    {
+      "attack_name": "qcb+3",
+      "property": "h (TJ)",
+      "damage": "10",
+      "startup": "i15 js9~",
+      "block": "-15",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "Tail spin"
+    },
+    {
+      "attack_name": "qcb+4",
+      "property": "Sm (TJ), h x 3",
+      "damage": "13,6,6,6",
+      "startup": "i10,25,44,54a js13~",
+      "block": "-14",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Jump qcf+1 or 2",
+      "property": "Sm",
+      "damage": "10",
+      "startup": "i18(~) js1~",
+      "block": "-21~",
+      "hit": "-11~",
+      "counter_hit": "-11~",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Jump qcb+3 or 4",
+      "property": "Sm",
+      "damage": "10",
+      "startup": "i13(~) js1~",
+      "block": "-9~+2",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+3+4 or b, d, d/b+3+4",
+      "property": "(Special)",
+      "damage": "-",
+      "startup": "i5inv",
+      "block": "-",
+      "hit": "-",
+      "counter_hit": "-",
+      "notes": "-"
+    },
+    {
+      "attack_name": "qcf+1+2",
+      "property": "Sm, Sm",
+      "damage": "10,10",
+      "startup": "i19~",
+      "block": "+1~",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "hcb+1+2",
+      "property": "Sm x 3",
+      "damage": "12,12,12",
+      "startup": "i28~,36,44",
+      "block": "+9~",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+1+2",
+      "property": "Sm x 3",
+      "damage": "6,6,23",
+      "startup": "i11,23,35a",
+      "block": "-34",
+      "hit": "Launch (JG?)",
+      "counter_hit": "Launch (JG?)",
+      "notes": "-"
+    },
+    {
+      "attack_name": "f, d, d/f+1+2 (On counter)",
+      "property": "Sm, (throw)",
+      "damage": "7,8,9,9,9",
+      "startup": "i11,,,",
+      "block": "-",
+      "hit": "-",
+      "counter_hit": "Throw(Launch)",
+      "notes": "-"
+    },
+    {
+      "attack_name": "qcb+3+4",
+      "property": "Sm x 4",
+      "damage": "6,6,6,20",
+      "startup": "i10,24,39,44 js10~",
+      "block": "-25",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Jump qcf+1+2",
+      "property": "Sm, Sm",
+      "damage": "10,10",
+      "startup": "i10,23 js1~",
+      "block": "+3~",
+      "hit": "+7~",
+      "counter_hit": "+7~",
+      "notes": "-"
+    },
+    {
+      "attack_name": "Jump qcb+3+4",
+      "property": "Sm",
+      "damage": "10",
+      "startup": "i13~ js1~",
+      "block": "-4~+9",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "TPORT(f+3+4) qcf+1+2",
+      "property": "m (TJ), Sm x 2(TPORT)",
+      "damage": "20,10,10",
+      "startup": "ijs1~",
+      "block": "-5~-1",
+      "hit": "+5~+9",
+      "counter_hit": "+5~+9",
+      "notes": "-"
+    },
+    {
+      "attack_name": "TPORT(f+3+4) qcb+3+4",
+      "property": "m (TJ), Sm x 3(TPORT)",
+      "damage": "20,6,6,20",
+      "startup": "ijs1~",
+      "block": "-15",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "TPORT(f+3+4) qcb+3+4 (Third hit miss)",
+      "property": "m (TJ), Sm x 2(TPORT)",
+      "damage": "20,6,6",
+      "startup": "ijs1~",
+      "block": "-25",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "TPORT(f+3+4) qcb+3+4 (second and third hit miss)",
+      "property": "m (TJ), Sm(TPORT)",
+      "damage": "20,6",
+      "startup": "i1~",
+      "block": "-35",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    },
+    {
+      "attack_name": "qcf, qcf+1+2",
+      "property": "Sm x 5",
+      "damage": "58(20*5)",
+      "startup": "i10~,,,,",
+      "block": "+2~",
+      "hit": "KND",
+      "counter_hit": "KND",
+      "notes": "-"
+    }
+  ]
+}

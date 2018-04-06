@@ -1,0 +1,34 @@
+{
+  "type": "array","items": {
+  "type": "object",
+  "properties": {
+    "attack_name": {
+      "type": "string"
+    },
+    "attack_img": {
+      "type": "string"
+    },
+    "property": {
+      "type": "string"
+    },
+    "damage": {
+      "type": "string"
+    },
+    "startup": {
+      "type": "string"
+    },
+    "block": {
+      "type": "string"
+    },
+    "hit": {
+      "type": "string"
+    },
+    "counter_hit": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "Opponent Down, d+4": {
+      "attack_img": "draw me",
+      "property": "l(On grounded opponent)",
+      "damage": "24",
+      "startup": "i19",
+      "block": "-16",
+      "hit": "-5",
+      "counter_hit": "-5",
+      "notes": "-"
+    }
+  },
+  {
+    "2+3+4": {
+      "attack_img": "RpLkRk",
+      "properties": "(Special)",
+      "damage": "-",
+      "startup": "i19",
+      "block": "-",
+      "hit": "-",
+      "counter_hit": "-",
+      "notes": "-"
+    }
+  }
+]

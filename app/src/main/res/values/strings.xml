@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY minutes "minutes"><!ENTITY minute "minute"><!ENTITY seconds "seconds"><!ENTITY crouch_dash_full "f, n, d, d/f"><!ENTITY crouch_dash "CD"><!ENTITY counter_hit "CH">]>
+
+<resources>
+    <string name="app_name">Tekken 7 FR Frame Data</string>
+    <string name="enter">Enter</string>
+    <string name="history">History</string>
+    <string name="default_atk">Attack Name</string>
+    <string name="default_name">Character Name</string>
+    <string name="default_atk_select">No Attack Selected</string>
+    <string name="default_name_select">No Character Selected</string>
+    <string name="error_name_select">No Character Found</string>
+    <string name="error_attack_select">No Attack Found</string>
+    <string name="crouch_dash_full">&crouch_dash_full;</string>
+    <string name="crouch_dash">&crouch_dash;</string>
+    <string name="counter_hit">CH</string>
+    <string name="tail_spin">S!</string>
+    <string name="quarter_circle_forward_full">d, d/f, f</string>
+    <string name="quarter_circle_forward">qcb</string>
+    <string name="quarter_circle_back_full">d, d/b, b</string>
+    <string name="quarter_circle_back">qcb</string>
+    <string name="half_circle_forward_full">d, d/b, d, d/f, f</string>
+    <string name="half_circle_forward">hcf</string>
+    <string name="half_circle_back_full">f, d/f, f, d/b, b</string>
+    <string name="half_circle_back">hcb</string>
+    <string name="left_punch_txt">LP</string>
+    <string name="left_punch">1</string>
+    <string name="right_punch_txt">RP</string>
+    <string name="right_punch">2</string>
+    <string name="left_kick_txt">LK</string>
+    <string name="left_kick">3</string>
+    <string name="right_kick_txt">RK</string>
+    <string name="right_kick">4</string>
+    <string name="plus">+</string>
+    <string name="ewgf_full">f, n, d, d/f+2</string>
+    <string name="ewgf">EWGF</string>
+    <string name="while_standing">WS</string>
+    <string name="while_standing_instant">iWS</string>
+    <string name="immediate">~</string>
+    <string name="character_image">This is a 192x33 jpeg of the character\'s name.</string>
+    <string name="attack_info1">Properties: </string>
+    <string name="attack_info2">Damage: </string>
+    <string name="attack_info3">Start-Up: </string>
+    <string name="attack_info4">Block: </string>
+    <string name="attack_info5">Hit: </string>
+    <string name="attack_info6">Counter Hit: </string>
+    <string name="attack_info7">Notes: </string>
+    <string name="info_null">-</string>
+</resources>

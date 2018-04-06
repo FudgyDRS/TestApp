@@ -1,0 +1,14 @@
+{
+  "attack_name": {
+    "Opponent Down, d+4": {
+      "attack_img": "Opponent Down, drawable/down_img.png @string/plus drawable/four_img.png",
+      "property": "l(On grounded opponent)",
+      "damage": "24",
+      "startup": "i19",
+      "block": "-16",
+      "hit": "-5",
+      "counter_hit": "-5",
+      "notes": "-"
+    }
+  }
+}
